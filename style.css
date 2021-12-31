@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+    font-family: sans-serif;
+}
+
+/*
+**  h1 ELEMENT AND CHILDREN
+*/
+h1 {
+    text-align: center;
+}
+
+/*
+** #board ELEMENT AND CHILDREN
+*/
+#board {
+    width: 512px;
+    height: 512px;
+
+    border: 2px solid black;
+
+    margin: 0 auto;
+}
+
+/*
+** #sqr-size-config ELEMENT AND CHILDREN
+*/
+#sqr-size-config {
+    text-align: center;
+}
