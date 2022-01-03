@@ -21,13 +21,22 @@ h1 {
     height: 512px;
 
     border: 2px solid black;
-
     margin: 0 auto;
+
+    display: flex;
+}
+
+.board-square {
+    background-color: brown;
+}
+
+.board-square:hover {
+    background-color: gray;
 }
 
 /*
 ** #sqr-size-config ELEMENT AND CHILDREN
 */
-#sqr-size-config {
+#sqr-num-config {
     text-align: center;
 }

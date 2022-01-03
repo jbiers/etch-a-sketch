@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
 
     <title>Etch a Sketch</title>
 </head>
@@ -19,9 +18,9 @@
 
     </div>
 
-    <div id="sqr-size-config">
+    <div id="sqr-num-config">
         <label>Square size:</label>
-        <select name="sqr-size">
+        <select id="sqr-num" name="sqr-num">
             <option value="2">2</option>
             <option value="4">4</option>
             <option value="8">8</option>
@@ -31,7 +30,11 @@
             <option value="128">128</option>
             <option value="256">256</option>
         </select>
+
+        <button id="clear-btn">Clear Grid</button>
     </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>

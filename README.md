@@ -3,8 +3,11 @@ etch a sketch project
 
 - Basic project setup --OK
 - Get square size input setup --OK
-- Get JavaScript to receive square size input
+- Get JavaScript to receive square size input --OK
+
 - Create clear grid based on input
+    - Clear all children of "board" element.
+    - Turn into grid instead of flex.
 
 - On hover, make grid colored
 
