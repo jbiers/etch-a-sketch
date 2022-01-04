@@ -11,8 +11,11 @@ etch a sketch project
 
 - On hover, make cell colored --OK
 
-- Get color mode input setup (rainbow or b&w)
-- Get JavaScript to receive color mode input
-- Create JavaScript function to change the colors
+- Get color mode input setup (rainbow or b&w) --OK
+- Get JavaScript to receive color mode input --OK
+- Create JavaScript function to change the colors --OK
 
 - Final touches
+
+## What I learned:
+    - event bubbling

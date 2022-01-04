@@ -1,6 +1,9 @@
 const selectNum = document.getElementById("sqr-num")
 const clearBtn = document.getElementById("clear-btn")
 
+const radioRainbow = document.getElementById("rainbow")
+const radioBlack = document.getElementById("black")
+
 let sqrNum, sqrSize
 
 const board = document.getElementById("board")
@@ -8,6 +11,16 @@ const board = document.getElementById("board")
 let boardRow
 let boardSquare
 let boardChildren
+
+let black = true
+
+radioRainbow.addEventListener('click', () => {
+    black = false
+})
+
+radioBlack.addEventListener('click', () => {
+    black = true
+})
 
 clearBtn.addEventListener("click", () => {
     boardChildren = Array.from(document.getElementsByClassName('board-row'))
@@ -47,6 +60,12 @@ clearBtn.addEventListener("click", () => {
 
 board.addEventListener('mouseover', event => {
     if (event.target.classList[0] == 'board-square') {
-        event.target.style.backgroundColor = 'black'
+        if (black == true) {
+            event.target.style.backgroundColor = "black"
+        }
+
+        if (black == false) {
+            event.target.style.backgroundColor = "#" + Math.floor(Math.random() * 16777215).toString(16)
+        }
     }
 })
