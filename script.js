@@ -12,23 +12,22 @@ clearBtn.addEventListener("click", () => {
     sqrNum = selectNum.options[selectNum.selectedIndex].value
     sqrSize = (512 / sqrNum)
 
-    board.setAttribute("style", "flex-basis: 256px")
-
     for (let i = 0; i < sqrNum; i++) {
         boardRow = document.createElement('div')
         boardRow.classList.add('board-row')
 
-        /*boardRow.setAttribute("style", "width:512px")
-        boardRow.setAttribute("style", "height:256px")*/
+        boardRow.style.width = '512px'
+        boardRow.style.height = sqrSize + 'px'
+
 
         for (let j = 0; j < sqrNum; j++) {
             boardSquare = document.createElement('div')
 
-            boardSquare.setAttribute("style", "width:256px")
-            boardSquare.setAttribute("style", "height:256px")
-
             boardSquare.classList.add('board-square')
             boardSquare.classList.add(j)
+
+            boardSquare.style.width = sqrSize + 'px'
+            boardSquare.style.height = sqrSize + 'px'
 
             boardRow.appendChild(boardSquare)
         }
