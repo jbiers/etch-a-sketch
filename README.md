@@ -1,6 +1,18 @@
 # etch-a-sketch
-etch a sketch project
+## Etch a Sketch Project
+This project is a part of The Odin Project - Foundations course curriculum.
 
+![Screenshot from 2022-01-04 11-48-40](https://user-images.githubusercontent.com/85142222/148086066-38ad1db9-b61d-49f0-925a-032876f36491.png)
+
+
+### What I learned:
+    - event bubbling
+    - changing style in DOM elements with JavaScript
+    - made a random color generator
+    - got more used to flexbox
+    - how to use the forEach function
+
+### TODO List:
 - Basic project setup --OK
 - Get square size input setup --OK
 - Get JavaScript to receive square size input --OK
@@ -16,6 +28,3 @@ etch a sketch project
 - Create JavaScript function to change the colors --OK
 
 - Final touches --OK
-
-## What I learned:
-    - event bubbling
