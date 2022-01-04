@@ -7,7 +7,7 @@ etch a sketch project
 
 - Create clear grid based on input
     - Clear all children of "board" element.
-    - Turn into grid instead of flex.
+    - Make flexbox work. --OK
 
 - On hover, make grid colored
 
