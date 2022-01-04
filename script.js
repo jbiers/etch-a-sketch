@@ -1,3 +1,13 @@
+/**
+ * Odin Project - Foundations Course
+ * Build an Etch a Sketch game
+ * Should have a board with fixed size
+ * User should be able to choose number of squares inside the board
+ * Board can be cleaned
+ * User can also choose between black and rainbow mode
+ * Rainbow mode has randomly generated colors
+ */
+
 const selectNum = document.getElementById("sqr-num")
 const clearBtn = document.getElementById("clear-btn")
 
