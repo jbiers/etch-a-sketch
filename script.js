@@ -14,6 +14,7 @@ let boardChildren
 
 let black = true
 
+// listen for color changes
 radioRainbow.addEventListener('click', () => {
     black = false
 })
@@ -22,6 +23,7 @@ radioBlack.addEventListener('click', () => {
     black = true
 })
 
+// clear board and make new one with determined size
 clearBtn.addEventListener("click", () => {
     boardChildren = Array.from(document.getElementsByClassName('board-row'))
     boardChildren.forEach(child => {
@@ -58,6 +60,7 @@ clearBtn.addEventListener("click", () => {
     }
 })
 
+// Alternate between color modes
 board.addEventListener('mouseover', event => {
     if (event.target.classList[0] == 'board-square') {
         if (black == true) {

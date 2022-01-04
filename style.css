@@ -11,6 +11,7 @@
 */
 h1 {
     text-align: center;
+    margin: 20px;
 }
 
 /*
@@ -42,4 +43,9 @@ h1 {
 */
 #sqr-num-config {
     text-align: center;
+    margin-top: 15px;
+}
+
+#sqr-num-config * {
+    margin-top: 5px;
 }

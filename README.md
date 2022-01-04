@@ -15,7 +15,7 @@ etch a sketch project
 - Get JavaScript to receive color mode input --OK
 - Create JavaScript function to change the colors --OK
 
-- Final touches
+- Final touches --OK
 
 ## What I learned:
     - event bubbling
