@@ -3,8 +3,6 @@ const clearBtn = document.getElementById("clear-btn")
 
 let sqrNum, sqrSize
 
-let firstTime = true
-
 const board = document.getElementById("board")
 
 let boardRow
@@ -12,12 +10,12 @@ let boardSquare
 let boardChildren
 
 clearBtn.addEventListener("click", () => {
-    if (firstTime == false) {
-        boardChildren = Array.from(document.getElementsByClassName('board-row'))
-        boardChildren.forEach(child => {
-            child.remove()
-        })
-    }
+    boardChildren = Array.from(document.getElementsByClassName('board-row'))
+    boardChildren.forEach(child => {
+        child.style.backgroundColor = 'white'
+        child.remove()
+    })
+
 
     sqrNum = selectNum.options[selectNum.selectedIndex].value
     sqrSize = (512 / sqrNum)
@@ -45,6 +43,10 @@ clearBtn.addEventListener("click", () => {
         boardRow.classList.add(i)
         board.appendChild(boardRow)
     }
+})
 
-    firstTime = false
+board.addEventListener('mouseover', event => {
+    if (event.target.classList[0] == 'board-square') {
+        event.target.style.backgroundColor = 'black'
+    }
 })

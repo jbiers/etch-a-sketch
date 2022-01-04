@@ -6,10 +6,10 @@ etch a sketch project
 - Get JavaScript to receive square size input --OK
 
 - Create clear grid based on input
-    - Clear all children of "board" element.
+    - Clear all children of "board" element. --OK
     - Make flexbox work. --OK
 
-- On hover, make grid colored
+- On hover, make cell colored --OK
 
 - Get color mode input setup (rainbow or b&w)
 - Get JavaScript to receive color mode input
