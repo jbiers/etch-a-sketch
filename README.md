@@ -2,6 +2,8 @@
 ## Etch a Sketch Project
 This project is a part of The Odin Project - Foundations course curriculum.
 
+Check this project live [HERE](https://jbiers.github.io/etch-a-sketch/)
+
 ![Screenshot from 2022-01-04 11-48-40](https://user-images.githubusercontent.com/85142222/148086066-38ad1db9-b61d-49f0-925a-032876f36491.png)
 
 
